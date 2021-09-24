@@ -3,23 +3,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.smartloli.kafka.eagle</groupId>
-    <artifactId>kafka-eagle</artifactId>
+    <artifactId>efak</artifactId>
     <packaging>pom</packaging>
-    <version>2.0.4</version>
+    <version>2.0.7</version>
     <name>ke</name>
     <url>https://repo1.maven.org/maven2/</url>
 
     <properties>
-        <project.version>2.0.4</project.version>
+        <project.version>2.0.7</project.version>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <modules>
-        <module>kafka-eagle-common</module>
-        <module>kafka-eagle-api</module>
-        <module>kafka-eagle-web</module>
-        <module>kafka-eagle-core</module>
-        <module>kafka-eagle-plugin</module>
+        <module>efak-common</module>
+        <module>efak-api</module>
+        <module>efak-web</module>
+        <module>efak-core</module>
+        <module>efak-plugin</module>
     </modules>
 </project>
